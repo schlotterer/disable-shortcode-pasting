@@ -4,6 +4,8 @@
  * Description: Prevents automatic shortcode blocks from being inserted when pasting into plain text blocks like paragraphs or headings.
  * Version: 1.0
  * Author: Your Name
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 function dsp_enqueue_block_editor_assets() {

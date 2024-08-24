@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Disable Shortcode Pasting in Plain Text Blocks
- * Description: Prevents automatic shortcode blocks from being inserted when pasting into plain text blocks like paragraphs or headings.
+ * Description: Prevents automatic shortcode blocks from being inserted when pasting shortcodes into plain text blocks like paragraphs or headings.
  * Version: 1.0
  * Author: Joel Schlotterer
  * License: GPLv2 or later

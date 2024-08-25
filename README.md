@@ -1,33 +1,30 @@
 # disable-shortcode-pasting
 Prevents automatic shortcode blocks from being inserted when pasting into plain text blocks like paragraphs or headings.
 
-=== Disable Shortcode Pasting in Plain Text Blocks ===
-Contributors: yourusername
+## Disable Shortcode Pasting in Plain Text Blocks
+Contributors: guerilladesigns
 Tags: shortcode, paste, block editor, gutenberg, content
-Requires at least: 5.0
-Tested up to: 6.2
+Requires at least: 6.5
+Tested up to: 6.6.1
 Stable tag: 1.0
-Requires PHP: 7.0
+Requires PHP: 8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-== Description ==
+## Description
 Prevents automatic shortcode blocks from being inserted when pasting into plain text blocks like paragraphs, headings, and quotes in the block editor.
 
-== Installation ==
+## Installation
 1. Upload the plugin files to the `/wp-content/plugins/disable-shortcode-pasting` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. That’s it! The plugin works automatically in the background.
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-= Will this affect the functionality of my shortcodes? =
-No, shortcodes will still function normally on the front end. The plugin only changes how they behave when pasted in the block editor.
+### Will this affect the functionality of my shortcodes?
+- No, shortcodes will still function normally on the front end. The plugin only changes how they behave when pasted in the block editor.
 
-== Screenshots ==
-1. Example of a pasted shortcode remaining inline in a paragraph block.
-
-== Changelog ==
+### Changelog
 = 1.0 =
 * Initial release.
 

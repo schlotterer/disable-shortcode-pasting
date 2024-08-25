@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Disable Shortcode Block Pasting ===
 Contributors: YourUserName
 Tags: shortcode, paste, block editor, gutenberg, content
 Requires at least: 6.5

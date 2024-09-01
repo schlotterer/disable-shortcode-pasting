@@ -33,4 +33,23 @@ function enqueue_block_editor_assets() {
     );
 }
 
-add_action('enqueue_block_editor_assets', __NAMESPACE__ . '\\enqueue_block_editor_assets');
+add_action('enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_block_editor_assets');
+
+function render_block_with_shortcodes( $block_content, $block ) {
+    // Apply to reusable blocks and other block types if needed
+    $blocks_with_shortcodes = [
+        'core/paragraph',
+        'core/heading',
+        'core/quote',
+        'core/list',
+        'core/preformatted',
+    ]; // Add more as needed
+
+    if ( in_array( $block['blockName'], $blocks_with_shortcodes ) ) {
+        $block_content = do_shortcode( $block_content );
+    }
+
+    return $block_content;
+}
+add_filter( 'render_block', __NAMESPACE__ . '\render_block_with_shortcodes', 10, 2 );
+
